@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<title>Deftsu</title>
+	<link rel="icon" href="images/deftsu.png">
+	<head>
+		<title>Deftsu</title>
+		<meta name="description" content="A website about Deftsu and what he does.">
+		<meta name="tags" content="deftsu, tony, viana, tonyviana, tsmdeftsu, tsm deftsu, korewadeftsu, kore wa deftsu, tonymate, txnyedits">
+
+		<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+			
+	</head>
+	
+	<body>
+		<div id="container">
+			<div id="landing">
+				<img id="logo" src="images/deftsu.png" alt="Logo"/>
+					<!--<h2>Deftsu</h2>-->
+						<div id="intro">
+							<p>Welcome to my website. Here you will find out a little bit about me, what I do and what I like. 
+							Enjoy your stay!
+							</p>
+						</div>
+						<div id="outline"></div>
+						<iframe id="soundcloud" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303701026&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+						<div id="start">
+						<script>
+							$("#start").click(function() {
+								$('html, body').animate({
+									scrollTop: $("#page").offset().top
+								}, 1500);
+							});
+						</script>
+							<a id="startbutton">
+								<p>Start</p>
+							</a>
+						</div>
+			</div>
+				<div id="page">
+					<h3>About me</h3>	
+						<div id="aboutme">
+								<p>Hello, my name is Tony, I also go by "Deftsu". I'm 19 years old. Currently I am attending 
+								Swansea University to study Computer Science. I take an interest in video games, anime and technology.
+								</p>
+						</div>
+						<div id="outline2"></div>
+						
+						<h4>Social Media</h4>
+						<div id="socialmedia">
+							<ul id="socialmedialist">
+								<li><a id="twitter" href="https://twitter.com/KorewaDeftsu" target="_blank">
+								<img id="twitterlogo" src="images/twitter.png" alt="Twitter logo"/>Twitter</a></li>
+								<li><a id="youtube" href="https://www.youtube.com/user/TxnyEdits" target="_blank">
+								<img id="youtubelogo" src="images/youtube.png" alt="Youtube Logo"/>YouTube</a></li>
+								<li><a id="steam" href="http://steamcommunity.com/id/TonyMate/" target="_blank">
+								<img id="steamlogo" src="images/steam.png" alt="Steam Logo"/>Steam</a></li>
+							</ul>
+						</div>
+							<div id="next">
+								<script>
+									$("#next").click(function() {
+										$('html, body').animate({
+											scrollTop: $("#discord").offset().top
+										}, 1500);
+									});
+								</script>
+									<a id="nextbutton">
+										<p>Next</p>
+									</a>
+							</div>
+				</div>
+					<div id="discord">
+						<h5>Join my <a href="https://discord.gg/K9Em7Xj"><img id="discordlogo" src="images/discord.png" alt="Discord logo"/></a></h5>
+							<div id="discordlist">
+								<ul id="discordlist">
+									<li id="remubot"><a id="remuurl" href="https://discordapp.com/oauth2/authorize?client_id=210194368836009984&scope=bot" target="_blank">
+									<img id="remu" src="images/remu.png" alt="Remu Remu"/></a></li>
+									<li id="discord"><iframe id="widget" src="https://discordapp.com/widget?id=133001683549683722&theme=dark" allowtransparency="true" frameborder="0"></iframe></li>
+									<li id="ramubot"><a id="ramuurl" href="https://discordapp.com/oauth2/authorize?client_id=251101641317679115&scope=bot" target="_blank">
+									<img id="ramu" src="images/ramu.png" alt="Nee-sama! Nee-sama!"/></a></li>
+								</ul>
+							</div>
+							<!--<iframe id="widget" src="https://discordapp.com/widget?id=133001683549683722&theme=dark" allowtransparency="true" frameborder="0"></iframe>-->
+							<div id="back">
+								<script>
+									$("#back").click(function() {
+										$('html, body').animate({
+											scrollTop: $("#landing").offset().top
+											}, 1500);
+										});
+								</script>
+									<a id="backbutton">
+										<p>Back</p>
+									</a>
+							</div>
+					</div>
+			<footer>
+			<p>Copyright &copy; 2016, Tony "Deftsu" Viana<br>Contact email: <a id="email" href="mailto:Txny@live.co.uk">Txny@live.co.uk</a>.</p>
+
+			</footer>
+		</div>
+	</body>
+		
+</html>

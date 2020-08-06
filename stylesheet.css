@@ -1,0 +1,398 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: white;
+}
+
+div#container {
+	height: 100%;
+}
+
+img#logo{
+	width: 420px;
+	margin: auto;
+	display: block;
+}
+
+h2 {
+    text-align: center;
+	font-size: 102px;
+	text-shadow: 2px 2px 2px black;
+	width: 800px;
+	margin: auto;
+}
+
+div#landing {
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: -10px;
+	padding-top: 125px;
+	height: 850px;
+	background-image: url("images/girl.png");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: fixed;
+	
+}
+
+div#intro {
+	text-align: center;
+	width: 600px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-shadow: 2px 2px 4px #000000;
+}
+div#outline {
+    border-bottom: 2px solid black;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#start {
+	text-align: center;
+    border-bottom: 2px solid black;
+	width: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+a#startbutton { 
+	text-decoration: none; 
+	color: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+a#startbutton:visited { 
+	text-decoration: none; 
+}
+a#startbutton:hover { 
+	text-decoration: none;
+	color: #ff33cc;
+	
+}
+a#startbutton:focus { 
+	text-decoration: none; 
+}
+
+a#startbutton:hover, a:active { 
+	text-decoration: none;
+	cursor: pointer;	
+}
+
+#soundcloud {
+	width: 445px;
+	height: 125px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+
+div#page{
+	margin-left: -8px;
+	margin-right: -8px;
+	height: 975px;
+	background-image: url("images/anime.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: fixed;
+	border: 3px solid transparent;
+}
+
+h3 {
+	text-align: center;
+	font-size: 75px;
+	color: black;
+	margin: auto;
+	padding-top: 100px;
+}
+
+div#aboutme {
+	text-align: center;
+	color: black;
+	width: 600px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+div#outline2 {
+    border-bottom: 2px solid black;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h4 {
+	text-align: center;
+	font-size: 40px;
+	color: black;
+	margin: auto;
+	padding-top: 75px;
+}
+
+div#socialmedia {
+	border: 2px solid black;
+	width: 650px;
+	margin: auto;
+	margin-top: 30px;
+	
+}
+ul#socialmedialist {
+	color: black;
+	font-size: 17px;
+	list-style-type:none;
+	margin-top: 25px;
+	height: 30px;
+}
+a#twitter {
+	color: black;
+	text-decoration: none; 
+	font-weight: bold;
+	float: left;
+}
+
+a#twitter:hover {
+	color: #55acee;
+	font-weight: bold;
+}
+
+img#twitterlogo {
+	width: 30px;
+	float: left;
+	margin-top: -4px;
+	padding-right:3px;
+}
+
+a#youtube {
+	color: black;
+	text-decoration: none; 
+	font-weight: bold;
+	margin-left: 25%;
+	float: left;
+}
+a#youtube:hover {
+	color: red;
+	font-weight: bold;
+}
+
+img#youtubelogo {
+	width: 25px;
+	float: left;
+	padding-top: 3px;
+	padding-right: 5px;
+}
+
+a#steam {
+	color: black;
+	text-decoration: none; 
+	font-weight: bold;
+	margin-left: 25%;
+	float: left;
+}
+
+a#steam:hover {
+	color: #b2b8c2;
+	font-weight: bold;
+}
+
+img#steamlogo {
+	width: 25px;
+	float: left;
+	padding-right: 5px;
+	padding-top: 1px;	
+}
+
+div#next {
+	text-align: center;
+    border-bottom: 2px solid black;
+	width: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 285px;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+a#nextbutton{ 
+	text-decoration: none; 
+	color: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+a#nextbutton:visited { 
+	text-decoration: none; 
+}
+a#nextbutton:hover { 
+	text-decoration: none;
+	color: #ffcc99;
+	
+}
+a#nextbutton:focus { 
+	text-decoration: none; 
+}
+
+a#nextbutton:hover, a:active { 
+	text-decoration: none;
+	cursor: pointer;	
+}
+
+h5 {
+	text-align: center;
+	font-size: 75px;
+	color: white;
+	margin: auto;
+	padding-top: 100px;
+}
+
+img#discordlogo {
+	width: 300px;
+	margin-bottom: -35px;
+}
+
+div#discord {
+	margin-left: -8px;
+	margin-right: -8px;
+	height: 975px;
+	background-image: url("images/glasses.png");
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-attachment: fixed;
+}
+
+div#discordlist {
+	/*border: 2px solid black;*/
+}
+
+ul#discordlist {
+	list-style-type:none;
+	padding: 0;
+    text-align: center;
+}
+
+li#remubot {
+	display: inline-block;
+	direction: rtl;
+    width: 295px;
+	position: relative;
+    right: 100px;
+}
+
+li#discord {
+	display: inline-block;
+}
+
+li#ramubot {
+	display: inline-block;
+	width: 295px;
+	position: relative;
+    left: 70px;
+}
+
+img#remu {
+	width: 530px;
+	
+}
+
+img#ramu {
+	width: 205px;
+	
+}
+
+#widget {
+	width:350px;
+	height:600px;
+	float: left;
+}
+
+div#back {
+	text-align: center;
+    border-bottom: 2px solid black;
+	width: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+	font-size: 24px;
+	margin-top: -20px;
+}
+
+a#backbutton{ 
+	text-decoration: none; 
+	color: black;
+	padding-bottom: 5px;
+}
+
+a#backbutton:visited { 
+	text-decoration: none; 
+}
+a#backbutton:hover { 
+	text-decoration: none;
+	color: #7289DA;
+	
+}
+a#backbutton:focus { 
+	text-decoration: none; 
+}
+
+a#backbutton:hover, a:active { 
+	text-decoration: none;
+	cursor: pointer;	
+}
+
+footer {
+	font-weight: bold;
+	text-align: center;
+	background-image: url("images/lights.png");
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: -15px;
+	margin-bottom: -15px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+a#email { 
+	text-decoration: underline; 
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+a#email:visited { 
+	text-decoration: none; 
+}
+a#email:hover { 
+	text-decoration: none;
+	color: #ff33cc;
+	font-weight: bold;
+	
+}
+a#email:focus { 
+	text-decoration: none; 
+}
+
+a#email:hover, a:active { 
+	text-decoration: none;
+	cursor: pointer;	
+}
